@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$config['base_url'] = 'http://localhost/dailygate_tour_process/';
+$config['base_url'] = 'https://devops.dailygate.in/dailygate_tour_process/';
 
 
 $config['index_page'] = 'index.php';
