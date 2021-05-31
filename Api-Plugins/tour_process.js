@@ -2,6 +2,7 @@ var path = $("#host").val();
 
 function load_toturial_video() {
     var search=$("#search_video").val();
+    var csrf_test_name = $.cookie('csrf_cookie_name');
 	$.ajax({
 		url: path + "tutotial/get_videos",
 		type: "GET",
@@ -10,7 +11,7 @@ function load_toturial_video() {
 			"Authorization": $.cookie("jwt")
 		},
         data: {
-			search
+			csrf_test_name,search
 		},
 
 		success: function (json) {
