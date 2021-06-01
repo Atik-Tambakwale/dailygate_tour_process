@@ -134,10 +134,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </head>
     <body>
         <input type="hidden" name="host" id="host" value="<?=base_url()?>">
-
         <div class="col-md-12" id="video_div_block">
             <div class="video-player">
-                
 
             </div>
         </div>
